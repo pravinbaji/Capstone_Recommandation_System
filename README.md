@@ -103,20 +103,6 @@ Because the dataset that you are going to use is huge, the model training may ta
 
  
 
-You can look into the user guide to access the Colab below.
+ https://capston-product-recommendation.herokuapp.com/
 
-Colab User Guide
-Download
-Assumption: No new users or products will be introduced or considered when building or predicting from the models built.
 
- 
-
-What needs to be submitted for the evaluation of the project?
-
-An end-to-end Jupyter Notebook, which consists of the entire code (data cleaning steps, text preprocessing, feature extraction, ML models used to build sentiment analysis models, two recommendation systems and their evaluations, etc.) of the problem statement defined
-The following deployment files
-One 'model.py' file, which should contain only one ML model and only one recommendation system that you have obtained from the previous steps along with the entire code to deploy the end-to-end project using Flask and Heroku
-'index.html' file, which includes the HTML code of the user interface
-'app.py' file, which is the Flask file to connect the backend ML model with the frontend HTML code
-Supported pickle files, which have been generated while pickling the models
-The evaluation rubrics are mentioned in the next segment.d ratings are given by more than 20,000 users. Please refer to the following attribute description file to get the details about the columns of the Review Dataset.
